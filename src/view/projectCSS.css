@@ -1,0 +1,38 @@
+.button
+{
+    -fx-background-color: rgb(133, 133, 133);
+    -fx-border-width: 2;
+    -fx-background-radius: 30;
+    -fx-border-color: black;
+    -fx-border-radius: 30;
+}
+
+.button:hover
+{
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border;
+
+}
+
+.text-field
+{
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-color: rgb(59, 59, 59);
+    -fx-border-radius: 8;
+}
+
+.combo-box
+{
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-color: rgb(59, 59, 59);
+    -fx-border-radius: 8;
+}
+
+.text-area
+{
+    -fx-border-width: 2;
+    -fx-background-radius: 8;
+    -fx-border-color: rgb(59, 59, 59);
+    -fx-border-radius: 8;
+}
